@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Apna Ghar",
+    "slug": "smarthome-hub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0f172a",
+    "icon": "./src/assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.patel.smarthomehub",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75b0b8ac-a435-4fb3-a20c-67dbdf48585a"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
